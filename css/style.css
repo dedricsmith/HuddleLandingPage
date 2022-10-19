@@ -262,13 +262,19 @@ img {
 }
 
 .contact--logo {
+  width: 40%;
+}
+
+.contact--text {
   width: 50%;
+  font-size: 1.4rem;
 }
 
 .contact--container {
   display: flex;
   justify-content: start;
   align-items: center;
+  font-size: 1.4rem;
 }
 
 .icons--container {
