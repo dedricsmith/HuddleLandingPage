@@ -15,11 +15,20 @@
   }
 
   .section--text {
-    width: 95%;
+    min-width: 60%;
   }
 
   .contact--text {
-    width: 40%;
+    width: 80%;
+  }
+
+  .flexbox-header {
+    flex-direction: column;
+    gap: 5em;
+  }
+
+  .flexbox-footer {
+    flex-direction: column;
   }
 
   .bg-top-1 {
@@ -47,8 +56,18 @@
   .header-section {
     padding: 7em;
   }
+
   .newsletter--text {
     width: 60%;
+  }
+
+  .contact--section {
+    padding: 1em;
+    font-size: 1.4rem;
+  }
+
+  .email--input {
+    font-size: 1.4rem;
   }
 }
 
@@ -83,7 +102,7 @@
   }
 
   .text--container {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .flexbox-footer {
@@ -124,10 +143,6 @@
 
   .email--input {
     flex-basis: 65%;
-  }
-
-  .btn--footer {
-    padding: 1em 0.5em;
   }
 }
 
