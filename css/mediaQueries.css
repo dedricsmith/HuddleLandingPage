@@ -19,7 +19,7 @@
   }
 
   .contact--text {
-    width: 80%;
+    width: 50%;
   }
 
   .flexbox-header {
@@ -62,7 +62,6 @@
   }
 
   .contact--section {
-    padding: 1em;
     font-size: 1.4rem;
   }
 
@@ -74,6 +73,11 @@
 @media (min-width: 900px) {
   .section {
     flex-direction: row;
+    text-align: start;
+  }
+
+  section:nth-child(4) {
+    flex-direction: row-reverse;
   }
 
   .section--title {
@@ -81,7 +85,7 @@
   }
 
   .section--text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .header--big {
@@ -103,6 +107,11 @@
 
   .text--container {
     font-size: 1.4rem;
+  }
+
+  .flexbox-header {
+    flex-direction: row;
+    gap: 25em;
   }
 
   .flexbox-footer {
