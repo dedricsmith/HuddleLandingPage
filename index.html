@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <!-- JavaScript -->
+    
+    <!-- Heading Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- Body Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <img src="images/logo.svg" class="nav--logo" alt="Huddle Logo " />
+      <button class="btn btn--light nav--btn">Try it free</button>
+    </nav>
+
+    <header class="header-section gap-5x">
+      <h3 class="section--title ">Build The Community Your Fans Will Love</h3>
+      <p class="section--text header--text">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <button class="header--btn btn--dark btn">Get Started For Free</button>
+      <img
+        src="./images/screen-mockups.svg"
+        alt="Screen Mockups"
+      />
+      <div class="flexbox-header">
+        <div class="container gap-1x">
+          <img src="./images/icon-communities.svg" class="header--icon"></img>
+          <div class="header--big">1.4k+</div>
+          <p class="header--small">Communities Formed</p>
+        </div>
+
+        <div class="container gap-1x">
+          <img src="./images/icon-messages.svg" class="header--icon"></img>
+          <div class="header--big">2.7m+</div>
+          <p class="header--small">Messages Sent</p>
+        </div>
+    </div>
+    </header>
+    <main>
+      <div class="bg-top-1 bg-props"></div>
+      <section class="grow--section section gap-5x">
+        <div class="text--container gap-2x">
+          <h3 class="section--title">Grow Together</h3>
+          <p class="section--text">
+            Generate meaningful discussions with your audience and build a strong,
+            loyal community. Think of the insightful conversations you miss out on
+            with a feedback form.
+          </p>
+        </div>
+          <img src="./images/illustration-grow-together.svg" alt="Grow Together Illustration" />
+        </section>
+        <div class="bg-bottom-1 bg-props"></div>
+      
+      <section class="flow--section section gap-5x">
+        <div class="text--container gap-2x">
+          <h3 class="section--title">Flowing Conversations</h3>
+          <p class="section--text">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+          <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversations Illustration" />
+      </section>
+
+      <div class="bg-top-2 bg-props"></div>
+      <section class="users--section section gap-5x">
+        <div class="text--container gap-2x">
+          <h3 class="section--title">Your Users</h3>
+          <p class="section--text">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app, your
+            users can start chatting immediately.
+          </p>
+        </div>
+          <img src="./images/illustration-your-users.svg" alt="Your Users Illustration" />
+      </section>
+      <div class="bg-bottom-2 bg-props"></div>
+
+
+      <section class="cta-section gap-5x">
+        <h2 class="section--title">Ready To Build Your Community?</h2>
+        <button class="btn btn--dark cta--btn">Get Started For Free</button>
+      </section>
+    </main>
+    
+    <div class="bg-top-3 bg-props"></div>
+    <footer>
+      <div class=" flexbox-footer gap-2x">
+        <section class="newsletter--section gap-2x">
+          <div class="text--container gap-2x">
+            <h4 class="newsletter--title txt--clr-light">Newsletter</h4>
+            <p class="newsletter--text txt--clr-light">
+              To recieve tips on how to grow your community, sign up to our weekly
+              newsletter. We’ll never send you spam or pass on your email address
+            </p>
+          </div>
+          <div class="email--container gap-2x">
+            <input class="email--input" type="text" name="text" placeholder="Email Address" required />
+            <button class="btn btn--footer btn--dark">Subscribe</button>
+          </div>
+        </section>
+
+        <section class="contact--section">
+          <div class="text--container gap-2x">
+          <img class="contact--logo" src="./images/logo-white.svg" alt="Huddle Logo"></img>
+            <p class="contact--text txt--clr-light">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum
+              a, ultrices quis sem.</p>
+              <div class="contact--container gap-1x">
+                <i class="fa-sharp fa-solid fa-phone txt--clr-light"></i>
+                <span class="contact--phone txt--clr-light">Phone: +1-543-123-4567</span>
+            </div>
+            <div class="contact--container gap-1x">
+              <i class="fa-regular fa-envelope txt--clr-light"></i>
+              <span class="contact--email txt--clr-light">example@huddle.com</span>
+            </div>
+            <div class="icons--container gap-1x">
+              <i class="fa-brands fa-facebook fa-2x txt--clr-light"></i>
+              <i class="fa-brands fa-instagram  fa-2x txt--clr-light"></i>
+              <i class="fa-brands fa-square-twitter fa-2x txt--clr-light"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <!-- <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </p> -->
+  </body>
+</html>

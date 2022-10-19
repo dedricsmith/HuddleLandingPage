@@ -1,0 +1,284 @@
+:root {
+  --clr--pink: hsl(322, 100%, 66%);
+  --clr--pink-light: hsl(321, 100%, 78%);
+  --clr--red-light: hsl(0, 100%, 63%);
+  --clr--cyan-dark: hsl(192, 100%, 9%);
+  --clr--blue-pale: hsl(207, 100%, 98%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+footer {
+  background-color: var(--clr--cyan-dark);
+}
+
+img {
+  width: 100%;
+}
+
+/* UTILITIES */
+.gap-1x {
+  gap: 1em;
+}
+
+.gap-2x {
+  gap: 2em;
+}
+
+.gap-3x {
+  gap: 3em;
+}
+
+.gap-4x {
+  gap: 4em;
+}
+
+.gap-5x {
+  gap: 5em;
+}
+
+.txt--clr-light {
+  color: var(--clr--blue-pale);
+}
+
+/* UNIVERSIAL */
+.section {
+  padding: 5em 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section--title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem;
+}
+
+.section--text {
+  font-size: 1.4rem;
+}
+
+.btn {
+  padding: 1em 3em;
+  border-radius: 2rem;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+}
+
+.btn--light {
+  color: var(--clr--pink);
+  background-color: white;
+  border: solid 1px;
+  border-color: var(--clr--pink);
+}
+
+.btn--light:hover {
+  color: var(--clr--pink-light);
+  border-color: var(--clr--pink-light);
+}
+
+.btn--dark {
+  color: white;
+  background-color: var(--clr--pink);
+  font-weight: 700;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn--dark:hover {
+  background-color: var(--clr--pink-light);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text--container {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+}
+
+.flexbox-header {
+  display: flex;
+  gap: 25em;
+}
+
+.header--icon {
+  width: 20%;
+  align-self: start;
+}
+
+.header--big {
+  font-weight: 700;
+  font-size: 5rem;
+  color: var(--clr--cyan-dark);
+}
+
+.header--small {
+  font-size: 1.2rem;
+}
+
+.bg-props {
+  width: 100%;
+  height: 55px;
+  padding: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-top-1 {
+  background-image: url('../images/bg-section-top-desktop-1.svg');
+}
+
+.bg-top-2 {
+  background-image: url('../images/bg-section-top-desktop-2.svg');
+}
+
+.bg-top-3 {
+  background-image: url('../images/bg-footer-top-desktop.svg');
+}
+
+.bg-bottom-1 {
+  background-image: url('../images/bg-section-bottom-desktop-1.svg');
+}
+
+.bg-bottom-2 {
+  background-image: url('../images/bg-section-bottom-desktop-2.svg');
+}
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  padding: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--logo {
+  max-width: 20%;
+}
+
+.nav--btn {
+  font-size: 1rem;
+}
+
+/* HEADER */
+.header-section {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header--graph {
+  width: 100%;
+}
+
+/* GROW SECTION */
+
+.grow--section {
+  background-color: var(--clr--blue-pale);
+}
+
+/* USERS SECTION */
+.users--section {
+  background-color: var(--clr--blue-pale);
+}
+
+/* CTA SECTION */
+.cta-section {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* FOOTER SECTION */
+
+/* NEWSLETTER SECTION */
+.newsletter--section {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.newsletter--title {
+  font-size: 2.4rem;
+}
+.newsletter--text {
+  font-size: 1.4rem;
+}
+
+.email--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email--input {
+  padding: 1em;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn--footer {
+  width: 50%;
+  align-self: end;
+  border-radius: 1rem;
+}
+
+.flexbox-footer {
+  display: flex;
+}
+
+/* CONTACT SECTIONS */
+.contact--section {
+  padding: 3em;
+}
+
+.contact--logo {
+  width: 50%;
+}
+
+.contact--container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.icons--container {
+  display: flex;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */ ;

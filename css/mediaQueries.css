@@ -1,0 +1,134 @@
+@media (min-width: 320px) {
+  .navbar {
+    padding: 2em;
+  }
+  .nav--logo {
+    max-width: 35%;
+  }
+
+  .flexbox-container {
+    flex-direction: column;
+  }
+
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .section--text {
+    width: 95%;
+  }
+
+  .contact--text {
+    width: 50%;
+  }
+
+  .bg-top-1 {
+    background-image: url('../images/bg-section-top-mobile-1.svg');
+  }
+
+  .bg-top-2 {
+    background-image: url('../images/bg-section-top-mobile-2.svg');
+  }
+
+  .bg-top-3 {
+    background-image: url('../images/bg-footer-top-mobile.svg');
+  }
+
+  .bg-bottom-1 {
+    background-image: url('../images/bg-section-bottom-mobile-1.svg');
+  }
+
+  .bg-bottom-2 {
+    background-image: url('../images/bg-section-bottom-mobile-2.svg');
+  }
+}
+
+@media (min-width: 600px) {
+  .header-section {
+    padding: 7em;
+  }
+  .newsletter--text {
+    width: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  .section {
+    flex-direction: row;
+  }
+
+  .section--title {
+    font-size: 3rem;
+  }
+
+  .section--text {
+    font-size: 1.8rem;
+  }
+
+  .header--big {
+    font-size: 9rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+
+  .flexbox-container {
+    flex-direction: row;
+  }
+
+  .email--container {
+    flex-direction: row;
+    gap: 2.5em;
+  }
+
+  .text--container {
+    font-size: 1.8rem;
+  }
+
+  .flexbox-footer {
+    flex-direction: row-reverse;
+  }
+
+  .bg-props {
+    padding: 7em;
+  }
+
+  .bg-top-1 {
+    background-image: url('../images/bg-section-top-desktop-1.svg');
+  }
+
+  .bg-top-2 {
+    background-image: url('../images/bg-section-top-desktop-2.svg');
+  }
+
+  .bg-top-3 {
+    background-image: url('../images/bg-footer-top-desktop.svg');
+  }
+
+  .bg-bottom-1 {
+    background-image: url('../images/bg-section-bottom-desktop-1.svg');
+  }
+
+  .bg-bottom-2 {
+    background-image: url('../images/bg-section-bottom-desktop-2.svg');
+  }
+
+  .nav--logo {
+    width: 20%;
+  }
+
+  .header--text {
+    width: 55%;
+  }
+
+  .email--input {
+    flex-basis: 65%;
+  }
+
+  .btn--footer {
+    padding: 1em 0.5em;
+  }
+}
+
+/* Change width of buttons, container for foot contact and header container */
